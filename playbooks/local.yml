@@ -1,0 +1,3 @@
+- hosts: local-ubuntu
+  roles:
+     - { role: ../roles/mashimom.oh-my-zsh, ohmyzsh_theme: "michelebologna" }
