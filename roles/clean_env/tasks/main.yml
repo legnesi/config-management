@@ -1,0 +1,19 @@
+---
+# Desinstallation docker
+- name: Desinstallation docker...
+  shell: echo 'test'
+  become: true
+  become_user: root
+  shell: apt-get -y autoremove --purge docker-engine
+# Desinstallation maven
+- name: Desinstallation maven...
+  shell: echo 'test'
+  become: true
+  become_user: root
+  shell: apt-get -y autoremove --purge maven
+# Desinstallation Git
+- name: Desinstallation Git...
+  shell: echo 'test'
+  become: true
+  become_user: root
+  shell: apt-get -y autoremove --purge git

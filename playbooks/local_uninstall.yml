@@ -1,0 +1,4 @@
+#local_unistall
+- hosts: local-ubuntu
+  roles:
+     - { role: ../roles/clean_env}

@@ -1,0 +1,6 @@
+---
+docker_init: systemd
+docker_config_files:
+  - d: etc/systemd/system/docker.service.d
+    f: ansible-configured.conf
+    m: '0644'
