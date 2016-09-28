@@ -18,5 +18,11 @@ alias fnd="realpath $@"
 alias findjar="for f (**/*.jar(.)) jar -tf \"$f\" | grep --label \"$f\" -l `sed 's|\.|/|g' <<< \"$@\"`"
 
 
-## edric custom alias
+## cedric custom alias
 alias c="clear"
+alias dc start="sudo service docker start"
+alias dc stop="sudo service docker stop"
+alias dc v="docker version"
+alias dc restart="sudo service docker restart"
+
+
