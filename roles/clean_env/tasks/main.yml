@@ -17,3 +17,9 @@
   become: true
   become_user: root
   shell: apt-get -y autoremove --purge git
+# Desinstallation de docker-compose
+- name: Desistallation docker-compose...
+  shell: echo 'Suppression du dossier /usr/local/bin/docker-compose'
+  become: true
+  become_user: root
+  shell: rm /usr/local/bin/docker-compose*

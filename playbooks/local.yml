@@ -2,3 +2,4 @@
   roles:
      - { role: ../roles/mashimom.oh-my-zsh, ohmyzsh_theme: "michelebologna" }
      - { role: ../roles/andrewrothstein.docker, ohmyzsh_theme: "gnzh" }
+     - { role: ../roles/andrewrothstein.docker-compose, x: 42 }
